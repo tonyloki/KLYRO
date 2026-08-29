@@ -21,6 +21,18 @@
 
 ---
 
+## 🌿 Repository Architecture & Branch Guide
+
+This repository uses a clean **multi-branch architecture**. The default branch serves as the central **Master Architecture & Documentation Hub**, while complete implementation codebases are maintained on their dedicated branches:
+
+| Branch | Component | Description | Quick Switch |
+|---|---|---|---|
+| **`app`** *(Default)* | 📖 **Architecture Hub** | Master system architecture, design specifications, sequence diagrams, and API schemas. | `git checkout app` |
+| **`rtl-debugger`** | ⚙️ **Python Backend Engine** | Temporal durable workflow orchestrator, Activities, Icarus Verilog runner, multi-provider LLM client (Ollama/OpenAI/Anthropic), FastAPI REST/SSE server, and Web dashboard. | `git checkout rtl-debugger` |
+| **`flutter-app`** | 📱 **Mobile Diagnostic Client** | 14-screen Flutter mobile & desktop diagnostic intelligence app, Causal DAG graph, audio waveform capture, Git blame correlation, and Proof Card generator. | `git checkout flutter-app` |
+
+---
+
 ## 📑 Table of Contents
 
 - [1. Executive Overview](#1-executive-overview)
